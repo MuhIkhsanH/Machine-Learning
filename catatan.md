@@ -49,6 +49,13 @@ akurasi = accuracy_score(y_test,y_pred)
 print(f"{akurasi*100:.2f}%")
 ```
 
+## Menampilkan Confusion Matrix
+```
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test,y_pred)
+print(cm)
+```
+
 ## Urutan Machine Learning
 ```
 1. siapkan kaggle
