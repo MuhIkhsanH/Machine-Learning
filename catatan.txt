@@ -5,3 +5,7 @@
 !pip install kaggle
 !kaggle datasets download -d uciml/breast-cancer-wisconsin-data
 
+=== Pandas ===
+df.info = melihat isi semua kolom beserta jenisnya
+df.isnull().sum() = menampilkan missing value
+df.duplicated().sum() = menampilkan duplikat
