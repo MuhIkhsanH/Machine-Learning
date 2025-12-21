@@ -69,6 +69,12 @@ data_baru = [[
 data_baru = scaler.transform(data_baru) DI STANDARISASI DULU
 prediksi = rf.predict(data_baru)
 print(prediksi)
+output = [2]
+
+if prediksi[0] == 1:
+    print("Prediksi: Kanker GANAS")
+else:
+    print("Prediksi: Kanker JINAK")
 ```
 ## Urutan Machine Learning
 ```
