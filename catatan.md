@@ -105,3 +105,6 @@ from sklearn.ensemble import RandomForestClassifier
 rf = RandomForestClassifier()
 rf.fit(X_train,y_train)
 ```
+
+Logistic Regression = Klasifikasi
+Linear Regression = Regresi
