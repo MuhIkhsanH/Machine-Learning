@@ -66,6 +66,7 @@ print(cm)
 6. standariasi
 7 model fit
 8. menampilkan akurasi
+9. confusion matrix
 ```
 
 ## Jenis Model
