@@ -56,7 +56,20 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test,y_pred)
 print(cm)
 ```
-
+## Prediksi Machine Learning
+```
+data_baru = [[
+    14.2, 20.1, 92.3, 654.1, 0.096,
+    0.104, 0.088, 0.048, 0.18, 0.062,
+    0.42, 1.12, 2.88, 35.2, 0.006,
+    0.021, 0.028, 0.01, 0.02, 0.003,
+    16.3, 25.4, 107.2, 880.5, 0.132,
+    0.251, 0.31, 0.12, 0.29, 0.082
+]]
+data_baru = scaler.transform(data_baru) DI STANDARISASI DULU
+prediksi = rf.predict(data_baru)
+print(prediksi)
+```
 ## Urutan Machine Learning
 ```
 1. siapkan kaggle
@@ -68,6 +81,7 @@ print(cm)
 7 model fit
 8. menampilkan akurasi
 9. confusion matrix
+10. prediksi
 ```
 
 ## Jenis Model
