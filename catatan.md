@@ -34,6 +34,7 @@ X_test = scaler.fit_transform(X_test)
 ```
 from sklearn.model_selection import train_test_split
 X_train,X_test,y_train,y_test = train_test_split(X,y, test_size=0.2, random_state=42)
+
 print(X_train.shape) (455, 30) = 30 itu kolomnya
 print(X_test.shape) (114, 30)
 print(y_train.shape) (455,)
