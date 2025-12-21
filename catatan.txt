@@ -1,1 +1,7 @@
+=== Setting Kaggle ===
+!mkdir ~p ~/.kaggle
+!cp kaggle.json ~/.kaggle/
+!chmod 600 ~/.kaggle/kaggle.json
+!pip install kaggle
+!kaggle datasets download -d uciml/breast-cancer-wisconsin-data
 
