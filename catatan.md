@@ -39,7 +39,10 @@ print(X_train.shape) (455, 30) = 30 itu kolomnya
 print(X_test.shape) (114, 30)
 print(y_train.shape) (455,)
 print(y_test.shape) (114,)
+
 455 + 144 = keseluruhan dataset, 80% dan 20 %
+y bukan bagian dari X
+y hanya berasal dari target
 ```
 
 ## Menampilkan Akurasi
