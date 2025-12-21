@@ -15,6 +15,7 @@ df.duplicated().sum() = menampilkan duplikat
 df.dropna() = hapus missing value
 df.drop_duplicates() = hapus diplicated
 X = df.drop(columns=['']) = drop target biasanya target kolom
+df.iloc[0] = menampilkan 1 data saja index berapa
 ```
 
 ## Encoding
