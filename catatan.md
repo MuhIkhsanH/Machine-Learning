@@ -52,7 +52,9 @@ y_pred = rf.predict(X_test)
 akurasi = accuracy_score(y_test,y_pred)
 print(f"{akurasi*100:.2f}%")
 
-y_pred itu mengubah X_test yang tadi 114,30, kan X_test gak ada Y nya, dia itu diprediksi dan diubah menjadi Y_pred atau Y itu sendiri, terus Ypred dibandingkan dengan y_test karena y_test itu data yang asli setelah itu, munculah akurasi
+y_pred itu mengubah X_test yang tadi 114,30, kan X_test gak ada Y nya,
+dia itu diprediksi dan diubah menjadi Y_pred atau Y itu sendiri,
+terus Ypred dibandingkan dengan y_test karena y_test itu data yang asli setelah itu, munculah akurasi
 ```
 
 ## Menampilkan Confusion Matrix
