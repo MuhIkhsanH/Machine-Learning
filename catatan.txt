@@ -9,3 +9,22 @@
 df.info = melihat isi semua kolom beserta jenisnya
 df.isnull().sum() = menampilkan missing value
 df.duplicated().sum() = menampilkan duplikat
+df.dropna() = hapus missing value
+df.drop_duplicates() = hapus diplicated
+X = df.drop(columns=['']) = drop target biasanya target kolom
+
+=== Encoding ===
+y = y.map({'M': 1, 'B': 0})
+
+=== Split Test ===
+from sklearn.model_selection import train_test_split
+X_train,X_test,y_train,y_test = train_test_split(X,y, test_size=0.2, random_state=42)
+
+
+=== Urutan Machine Learning ===
+1. siapkan kaggle
+2. bersihkan data
+3. pilih Y dan X (yang tanpa Y) 
+4. encoding
+
+
