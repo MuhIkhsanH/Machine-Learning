@@ -24,6 +24,15 @@ df.iloc[0] = menampilkan 1 data saja index berapa
 ```
 Std kecil → data ngumpul rapat di sekitar mean
 Std besar → data nyebar jauh dari mean
+
+25% (Q1) → 25% data berada di bawah nilai ini
+50% (Median) → titik tengah data (setengah di bawah, setengah di atas)
+75% (Q3) → 75% data berada di bawah nilai ini
+Q1–Q3 = IQR → 50% data paling representatif
+Dipakai untuk:
+melihat sebaran data tengah
+deteksi outlier
+lebih tahan outlier dibanding mean/std
 ```
 
 ## Encoding
