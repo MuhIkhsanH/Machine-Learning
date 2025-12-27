@@ -18,6 +18,20 @@ plt.show()
 - label = untuk memperlihatkan di pojok kiri atau kanan penjelasan semisal age warna apa gitu
 - rwidth = semakin dikit semakin pisah, defaultnya 1.0 jadi jika 0.9 bar nya bakal pisah
 
+## hist biner rapi
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+plt.hist(df['sex'],bins=[-0.5,0.5,1.5],rwidth=0.9,edgecolor='black')
+plt.title("KELAMIN")
+plt.xticks([0,1],["Laki Laki","Perempuan"])
+plt.yticks(np.arange(100,1000,100))
+plt.xlabel('Gender')
+plt.ylabel("Jumlah")
+plt.show()
+```
+
 ## plt.xticks(np.arange(30,75,5))
 untuk menampilkan jarak dari plt.xlabel berarti itu awalnya 30, akhirnya 75, kelipatannya 5
  - rotation=90 = untuk memutar teks dari xlabel jadi agak kebawah
