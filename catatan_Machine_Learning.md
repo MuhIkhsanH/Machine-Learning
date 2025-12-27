@@ -13,6 +13,7 @@ df.info() = melihat isi semua kolom beserta jenisnya
 df.describe() = melihat std mean di dataset --- termasuk eksplorasi data (EDA)
 df.nunique() = melihat jenis unik atau jenis berapa saja yang beda beda seperti 1 laki 0 perempuan
 df['kolom'].unique() = jenis kolom tertentu
+df.columns = menampilkan isi semua kolom
 df.isnull().sum() = menampilkan missing value
 df.duplicated().sum() = menampilkan duplikat
 print(df[df.duplicated()]) = melihat apa saja yang duplikat
