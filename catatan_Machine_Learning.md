@@ -146,3 +146,9 @@ Linear Regression = Regresi
   
   KNN itu bisa ngelakuin jika datasetnya itu tidak ada kategori, atau semisal gender itu kan ada laki laki dan perempuan nah sedangkan umur itu cuma angka
 jadi KNN bisa ngatasi masalah yang cuma angka itu bukan seperti gender laki laki perempuan
+
+
+## DATASET YANG PERNAH DIPAKAI
+- Breast Cancer
+- Heart Disease
+- Edible Posion Musroom
