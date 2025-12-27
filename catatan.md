@@ -15,6 +15,7 @@ df.nunique() = melihat jenis unik atau jenis berapa saja yang beda beda seperti 
 df['kolom'].unique() = jenis kolom tertentu
 df.isnull().sum() = menampilkan missing value
 df.duplicated().sum() = menampilkan duplikat
+print(df[df.duplicated()]) = melihat apa saja yang duplikat
 df.dropna() = hapus missing value
 df.drop_duplicates() = hapus diplicated
 Y = df['diagnosis']
