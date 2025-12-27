@@ -11,6 +11,7 @@ plt.show()
 
 ## plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
 - bins = jumlah “kotak” atau “ember” untuk mengelompokkan data di histogram.
+- ```bins=[-0.5,0.5,1.5]``` = biar di tengah untuk laki laki perempuan 
 - color = warna bar
 - edgecolor = warna tepi bar
 - alpha = makin kecil makin transparan
