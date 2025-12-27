@@ -1,5 +1,4 @@
 ## Grafik Batang
-
 ```
 import matplotlib.pyplot as plt
 
