@@ -15,7 +15,8 @@ df.isnull().sum() = menampilkan missing value
 df.duplicated().sum() = menampilkan duplikat
 df.dropna() = hapus missing value
 df.drop_duplicates() = hapus diplicated
-X = df.drop(columns=['']) = drop target biasanya target kolom
+Y = df['diagnosis']
+X = df.drop(['id', 'diagnosis', 'Unnamed: 32'], axis=1) = drop target biasanya target kolom
 df.iloc[0] = menampilkan 1 data saja index berapa
 ```
 
