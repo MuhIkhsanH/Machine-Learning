@@ -134,6 +134,6 @@ Logistic Regression = Klasifikasi
 Linear Regression = Regresi
 
 - KNN
-- 
-KNN itu bisa ngelakuin jika datasetnya itu tidak ada kategori, atau semisal gender itu kan ada laki laki dan perempuan nah sedangkan umur itu cuma angka
+  
+  KNN itu bisa ngelakuin jika datasetnya itu tidak ada kategori, atau semisal gender itu kan ada laki laki dan perempuan nah sedangkan umur itu cuma angka
 jadi KNN bisa ngatasi masalah yang cuma angka itu bukan seperti gender laki laki perempuan
