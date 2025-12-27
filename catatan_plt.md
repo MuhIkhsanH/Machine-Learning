@@ -17,3 +17,12 @@ plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
 - edgecolor = warna tepi bar
 - alpha = makin kecil makin transparan
 - label = untuk memperlihatkan di pojok kiri atau kanan penjelasan semisal age warna apa gitu
+
+plt.legend() lokasi
+```
+plt.legend(loc='upper right')   # kanan atas
+plt.legend(loc='upper left')    # kiri atas
+plt.legend(loc='lower right')   # kanan bawah
+plt.legend(loc='lower left')    # kiri bawah
+plt.legend(loc='center')        # tengah
+```
