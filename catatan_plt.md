@@ -1,4 +1,4 @@
-## Grafik Batang
+# Grafik Batang
 ```
 import matplotlib.pyplot as plt
 
@@ -10,7 +10,7 @@ plt.show()
 ```
 
 ```
-plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
+## plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
 ```
 - bins = jumlah “kotak” atau “ember” untuk mengelompokkan data di histogram.
 - color = warna bar
@@ -18,7 +18,7 @@ plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
 - alpha = makin kecil makin transparan
 - label = untuk memperlihatkan di pojok kiri atau kanan penjelasan semisal age warna apa gitu
 
-plt.legend() lokasi
+## plt.legend() lokasi (harus dikasih label di plt hist nya
 ```
 plt.legend(loc='upper right')   # kanan atas
 plt.legend(loc='upper left')    # kiri atas
