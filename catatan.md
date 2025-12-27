@@ -9,7 +9,8 @@
 
 ## Pandas
 ```
-df.info = melihat isi semua kolom beserta jenisnya
+df.info() = melihat isi semua kolom beserta jenisnya
+df.describe() = melihat isi dari dataset
 df.isnull().sum() = menampilkan missing value
 df.duplicated().sum() = menampilkan duplikat
 df.dropna() = hapus missing value
