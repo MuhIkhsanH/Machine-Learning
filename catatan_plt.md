@@ -45,3 +45,25 @@ plt.legend(loc='lower right')   # kanan bawah
 plt.legend(loc='lower left')    # kiri bawah
 plt.legend(loc='center')        # tengah
 ```
+
+## CONFUSION MATRIX
+```
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+y_test = [0,0,1,1,0,1,0,1,1,0]
+y_pred = [0,0,1,0,0,1,0,1,0,0]
+
+cm = confusion_matrix(y_test,y_pred)
+
+plt.figure(figsize=(6,4))
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+            xticklabels=["Laki Laki", "Perempuan"],
+            yticklabels=["Laki Laki", "Perempuan"])
+plt.xlabel("Predicted")
+plt.ylabel("Actual")
+plt.title("Confusion Matrix")
+plt.show()
+
+```
