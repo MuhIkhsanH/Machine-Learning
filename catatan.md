@@ -11,6 +11,7 @@
 ```
 df.info() = melihat isi semua kolom beserta jenisnya
 df.describe() = melihat std mean di dataset --- termasuk eksplorasi data (EDA)
+df.nunique()
 df.isnull().sum() = menampilkan missing value
 df.duplicated().sum() = menampilkan duplikat
 df.dropna() = hapus missing value
