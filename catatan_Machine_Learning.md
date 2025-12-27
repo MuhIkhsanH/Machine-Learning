@@ -126,8 +126,8 @@ else:
 10. prediksi
 ```
 
-## Jenis Model
-- RandomForest (tidak butuh scaler):
+# Jenis Model
+## RandomForest (tidak butuh scaler):
   
 ```
 from sklearn.ensemble import RandomForestClassifier
@@ -138,7 +138,7 @@ Logistic Regression = Klasifikasi
 
 Linear Regression = Regresi
 
-- KNN
+## KNN
   ```
   from sklearn.neighbors import KNeighborsClassifier
   knn = KNeighborsClassifier(n_neighbors=5)
