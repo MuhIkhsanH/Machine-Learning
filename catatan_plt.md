@@ -15,6 +15,7 @@ plt.show()
 - edgecolor = warna tepi bar
 - alpha = makin kecil makin transparan
 - label = untuk memperlihatkan di pojok kiri atau kanan penjelasan semisal age warna apa gitu
+- rwidth = semakin dikit semakin pisah, defaultnya 1.0 jadi jika 0.9 bar nya bakal pisah
 
 ## plt.xticks(np.arange(30,75,5))
 untuk menampilkan jarak dari plt.xlabel berarti itu awalnya 30, akhirnya 75, kelipatannya 5
