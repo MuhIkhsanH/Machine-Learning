@@ -29,8 +29,8 @@ y = y.map({'M': 1, 'B': 0})
 ```
 from sklearn.preprocessing import StandardScaler
 scaler = StandardScaler()
-X_train = scaler.fit_transform(X_train)
-X_test = scaler.fit_transform(X_test)
+X_train = scaler.fit_transform(X_train) # BELAJAR DARI DATA 
+X_test = scaler.fit_transform(X_test) # DIANGGAP DATA BARU
 ```
 
 ## Split Test
