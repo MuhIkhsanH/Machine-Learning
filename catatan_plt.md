@@ -16,3 +16,4 @@ plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
 - color = warna bar
 - edgecolor = warna tepi bar
 - alpha = makin kecil makin transparan
+- label = untuk memperlihatkan di pojok kiri atau kanan penjelasan semisal age warna apa gitu
