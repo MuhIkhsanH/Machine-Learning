@@ -20,6 +20,12 @@ X = df.drop(['id', 'diagnosis', 'Unnamed: 32'], axis=1) = drop target biasanya t
 df.iloc[0] = menampilkan 1 data saja index berapa
 ```
 
+## Catatan df.describe
+```
+Std kecil → data ngumpul rapat di sekitar mean
+Std besar → data nyebar jauh dari mean
+```
+
 ## Encoding
 ```
 y = y.map({'M': 1, 'B': 0})
