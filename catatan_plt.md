@@ -16,6 +16,9 @@ plt.show()
 - alpha = makin kecil makin transparan
 - label = untuk memperlihatkan di pojok kiri atau kanan penjelasan semisal age warna apa gitu
 
+## plt.xticks(np.arange(30,75,5))
+untuk menampilkan jarak dari plt.xlabel berarti itu awalnya 30, akhirnya 75, kelipatannya 5
+
 ## plt.legend() lokasi (harus dikasih label di plt hist nya
 ```
 plt.legend(loc='upper right')   # kanan atas
