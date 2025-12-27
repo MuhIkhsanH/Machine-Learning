@@ -123,6 +123,7 @@ else:
 
 ## Jenis Model
 - RandomForest (tidak butuh scaler):
+  
 ```
 from sklearn.ensemble import RandomForestClassifier
 rf = RandomForestClassifier() atau RandomForestClassifier(n_estimators=100, random_state=42)
@@ -133,5 +134,6 @@ Logistic Regression = Klasifikasi
 Linear Regression = Regresi
 
 - KNN
+- 
 KNN itu bisa ngelakuin jika datasetnya itu tidak ada kategori, atau semisal gender itu kan ada laki laki dan perempuan nah sedangkan umur itu cuma angka
 jadi KNN bisa ngatasi masalah yang cuma angka itu bukan seperti gender laki laki perempuan
