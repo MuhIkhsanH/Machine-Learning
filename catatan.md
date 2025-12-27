@@ -81,6 +81,13 @@ from sklearn.metrics import confusion_matrix
 cm = confusion_matrix(y_test,y_pred)
 print(cm)
 ```
+
+# Classification Report
+```
+from sklearn.metrics import classification_report
+print(classification_report(y_test, y_pred))
+```
+
 ## Prediksi Machine Learning
 ```
 data_baru = [[
