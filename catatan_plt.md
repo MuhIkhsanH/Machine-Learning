@@ -8,4 +8,9 @@ plt.xlabel('Age')
 plt.ylabel("jumlah")
 plt.show()
 ```
+
+```
 plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
+```
+- color = warna bar
+- edgecolor = warna tepi bar
