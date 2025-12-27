@@ -9,9 +9,7 @@ plt.ylabel("jumlah")
 plt.show()
 ```
 
-```
 ## plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
-```
 - bins = jumlah “kotak” atau “ember” untuk mengelompokkan data di histogram.
 - color = warna bar
 - edgecolor = warna tepi bar
