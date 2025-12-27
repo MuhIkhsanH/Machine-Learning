@@ -21,6 +21,7 @@ plt.show()
 ## plt.xticks(np.arange(30,75,5))
 untuk menampilkan jarak dari plt.xlabel berarti itu awalnya 30, akhirnya 75, kelipatannya 5
  - rotation=90 = untuk memutar teks dari xlabel jadi agak kebawah
+ - ```plt.xticks([0,1],["Laki Laki","Perempuan"])``` membuat ditengah dan ada namanya
 
 ## plt.legend() lokasi (harus dikasih label di plt hist nya
 ```
