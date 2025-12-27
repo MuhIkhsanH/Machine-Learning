@@ -124,4 +124,5 @@ rf.fit(X_train,y_train)
 ```
 
 Logistic Regression = Klasifikasi
+
 Linear Regression = Regresi
