@@ -39,6 +39,7 @@ lebih tahan outlier dibanding mean/std
 ```
 y = y.map({'M': 1, 'B': 0})
 ```
+jika semisal targetnya itu masih bentuk huruf harus di encoding
 
 ## Standarisasi
 ```
