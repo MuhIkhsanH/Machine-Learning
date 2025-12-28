@@ -167,6 +167,7 @@ y_pred = knn.predict(X_test)
 akurasi = accuracy_score(y_test, y_pred)
 print(akurasi)
 ```
+Smote tadi menambah minoritas atau menambahkan data yang kurang
 
 ## CROSS VALIDATION + KNN
 ```
