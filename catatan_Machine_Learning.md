@@ -162,6 +162,10 @@ INBALANCE DI PAKAI DI KNN
 ```
 knn = KNeighborsClassifier(n_neighbors=5, weights='distance')
 knn.fit(X_train_res, y_train_res)
+
+y_pred = knn.predict(X_test_scaled)
+akurasi = accuracy_score(y_test, y_pred)
+print(akurasi)
 ```
 
 
