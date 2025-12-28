@@ -223,6 +223,9 @@ plt.show()
 ## Hyper Parameter
 mencari kombinasi hyperparameter terbaik atau coba satu satu supaya nemu yang terbaik
 
+## PCA
+nemuin fitur baru berdasarkan fitur yang ada, bisa ningkatin akurasi
+
 ## DATASET YANG PERNAH DIPAKAI
 - Breast Cancer = klasifikasi random forest
 - Heart Disease = klasifikasi random forest
