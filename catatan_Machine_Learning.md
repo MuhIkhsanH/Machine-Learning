@@ -141,9 +141,10 @@ Linear Regression = Regresi
 ## KNN
   ```
   from sklearn.neighbors import KNeighborsClassifier
-  knn = KNeighborsClassifier(n_neighbors=5)
+  knn = KNeighborsClassifier(n_neighbors=5) menggunakan 
   knn.fit(X_train,y_train)
   ```
+```knn = KNeighborsClassifier(n_neighbors=5, weights='distance')``` bisa meningkatkan akurasi
   
   KNN itu bisa ngelakuin jika datasetnya itu tidak ada kategori, atau semisal gender itu kan ada laki laki dan perempuan nah sedangkan umur itu cuma angka
 jadi KNN bisa ngatasi masalah yang cuma angka itu bukan seperti gender laki laki perempuan
