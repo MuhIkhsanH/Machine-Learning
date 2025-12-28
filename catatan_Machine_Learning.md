@@ -226,6 +226,9 @@ mencari kombinasi hyperparameter terbaik atau coba satu satu supaya nemu yang te
 ## PCA
 nemuin fitur baru berdasarkan fitur yang ada, bisa ningkatin akurasi
 
+## SMOTEENN
+oversampling sekaligus undersampling
+
 ## DATASET YANG PERNAH DIPAKAI
 - Breast Cancer = klasifikasi random forest
 - Heart Disease = klasifikasi random forest
