@@ -32,6 +32,24 @@ plt.ylabel("Jumlah")
 plt.show()
 ```
 
+## hist tapi ada angka diatasnya
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+counts, bins, patches = plt.hist(df['Outcome'], bins=[-0.5, 0.5, 1.5], rwidth=0.8)
+plt.xticks([0,1], ["Not Diabetes", "Diabetes"])
+plt.xlabel("Outcome")
+plt.ylabel("Total")
+
+for count, patch in zip(counts, patches):
+    plt.text(patch.get_x() + patch.get_width()/2, count + 0.5,  # posisi x dan y
+             int(count), ha='center', va='bottom')
+
+plt.show()
+
+```
+
 ## plt.xticks(np.arange(30,75,5))
 untuk menampilkan jarak dari plt.xlabel berarti itu awalnya 30, akhirnya 75, kelipatannya 5
  - rotation=90 = untuk memutar teks dari xlabel jadi agak kebawah
