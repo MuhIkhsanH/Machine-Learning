@@ -158,6 +158,11 @@ from imblearn.over_sampling import SMOTE
 smote = SMOTE(random_state=42)
 X_train_res, y_train_res = smote.fit_resample(X_train,y_train)
 ```
+INBALANCE DI PAKAI DI KNN
+```
+knn = KNeighborsClassifier(n_neighbors=5, weights='distance')
+knn.fit(X_train_res, y_train_res)
+```
 
 
 ## DATASET YANG PERNAH DIPAKAI
