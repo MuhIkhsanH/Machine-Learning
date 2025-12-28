@@ -151,6 +151,15 @@ Memberi bobot lebih besar ke tetangga yang lebih dekat.
 jadi KNN bisa ngatasi masalah yang cuma angka itu bukan seperti gender laki laki perempuan
 
 
+## INBALANCE DATA SMOTE
+```
+from imblearn.over_sampling import SMOTE
+
+smote = SMOTE(random_state=42)
+X_train_res, y_train_res = smote.fit_resample(X_train,y_train)
+```
+
+
 ## DATASET YANG PERNAH DIPAKAI
 - Breast Cancer
 - Heart Disease
