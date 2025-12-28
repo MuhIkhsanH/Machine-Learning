@@ -168,6 +168,8 @@ akurasi = accuracy_score(y_test, y_pred)
 print(akurasi)
 ```
 Smote tadi menambah minoritas atau menambahkan data yang kurang
+atau disebut oversampling (menambah) kalau mengurangi berarti undersampling
+atau mengurangi data supaya seimbang
 
 ## CROSS VALIDATION + KNN
 ```
