@@ -189,6 +189,34 @@ cf_cv = classification_report(y_train, y_pred_cv)
 print(cf_cv)
 ```
 
+## CROSS VALIDATION + CONFUSION MATRIX
+```
+from sklearn.model_selection import cross_val_predict
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.metrics import confusion_matrix
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Misal model KNN
+knn = KNeighborsClassifier(n_neighbors=5, weights='distance')
+
+# Cross-validation predictions
+y_pred_cv = cross_val_predict(knn, X_train, y_train, cv=5)
+
+# Confusion matrix dari CV
+cm_cv = confusion_matrix(y_train, y_pred_cv)
+print("Confusion Matrix (CV):")
+print(cm_cv)
+
+# Visualisasi
+sns.heatmap(cm_cv, annot=True, fmt='d', cmap='Blues', xticklabels=[0,1], yticklabels=[0,1])
+plt.xlabel('Predicted')
+plt.ylabel('Actual')
+plt.title('Confusion Matrix dari Cross-Validation')
+plt.show()
+
+```
+
 ## DATASET YANG PERNAH DIPAKAI
 - Breast Cancer
 - Heart Disease
