@@ -168,7 +168,7 @@ akurasi = accuracy_score(y_test, y_pred)
 print(akurasi)
 ```
 
-## CROSS VALIDATION
+## CROSS VALIDATION + KNN
 ```
 from sklearn.model_selection import cross_val_score
 from sklearn.neighbors import KNeighborsClassifier
@@ -178,7 +178,16 @@ scores = cross_val_score(knn, X_train, y_train, cv=5, scoring='accuracy')
 print("CV accuracy per fold:", scores)
 print("Mean CV accuracy:", scores.mean())
 ```
+## CROSS VALIDATION + CLASSIFICATION REPORT
+```
+from sklearn.model_selection import cross_val_predict
+from sklearn.metrics import classification_report
 
+y_pred_cv = cross_val_predict(knn, X_train, y_train, cv=5)
+
+cf_cv = classification_report(y_train, y_pred_cv)
+print(cf_cv)
+```
 
 ## DATASET YANG PERNAH DIPAKAI
 - Breast Cancer
