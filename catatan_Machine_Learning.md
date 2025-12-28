@@ -216,8 +216,11 @@ plt.title('Confusion Matrix dari Cross-Validation')
 plt.show()
 
 ```
+## Hyper Parameter
+mencari kombinasi hyperparameter terbaik atau coba satu satu supaya nemu yang terbaik
 
 ## DATASET YANG PERNAH DIPAKAI
-- Breast Cancer
-- Heart Disease
-- Edible Posion Musroom
+- Breast Cancer = klasifikasi random forest
+- Heart Disease = klasifikasi random forest
+- Edible Posion Musroom = klasifikasi random forest
+- Pima Indians Diabetes Database = klasifikasi KNN
