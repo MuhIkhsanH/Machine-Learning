@@ -158,7 +158,11 @@ from imblearn.over_sampling import SMOTE
 smote = SMOTE(random_state=42)
 X_train_res, y_train_res = smote.fit_resample(X_train,y_train)
 ```
-INBALANCE DI PAKAI DI KNN
+Smote tadi menambah minoritas atau menambahkan data yang kurang
+atau disebut oversampling (menambah) kalau mengurangi berarti undersampling
+atau mengurangi data supaya seimbang
+
+## INBALANCE DI PAKAI DI KNN
 ```
 knn = KNeighborsClassifier(n_neighbors=5, weights='distance')
 knn.fit(X_train_res, y_train_res)
@@ -167,9 +171,6 @@ y_pred = knn.predict(X_test)
 akurasi = accuracy_score(y_test, y_pred)
 print(akurasi)
 ```
-Smote tadi menambah minoritas atau menambahkan data yang kurang
-atau disebut oversampling (menambah) kalau mengurangi berarti undersampling
-atau mengurangi data supaya seimbang
 
 ## CROSS VALIDATION + KNN
 ```
