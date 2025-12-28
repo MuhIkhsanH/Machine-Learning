@@ -145,6 +145,7 @@ Linear Regression = Regresi
   knn.fit(X_train,y_train)
   ```
 ```knn = KNeighborsClassifier(n_neighbors=5, weights='distance')``` bisa meningkatkan akurasi
+Memberi bobot lebih besar ke tetangga yang lebih dekat.
   
   KNN itu bisa ngelakuin jika datasetnya itu tidak ada kategori, atau semisal gender itu kan ada laki laki dan perempuan nah sedangkan umur itu cuma angka
 jadi KNN bisa ngatasi masalah yang cuma angka itu bukan seperti gender laki laki perempuan
