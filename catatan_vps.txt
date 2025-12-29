@@ -1,0 +1,48 @@
+cp /etc/apt/sources.list /etc/apt/sources.list.bak-$(date +%s)
+
+
+cat > /etc/apt/sources.list <<EOF
+deb http://archive.debian.org/debian buster main contrib non-free
+deb http://archive.debian.org/debian buster-updates main contrib non-free
+deb http://archive.debian.org/debian-security buster/updates main contrib non-free
+EOF
+
+echo 'Acquire::Check-Valid-Until "false";' > /etc/apt/apt.conf.d/99no-check-valid-until
+
+
+
+
+
+apt update
+apt upgrade -y
+
+pilih yang keep
+
+
+apt install -y python3-distutils python3-setuptools build-essential libssl-dev libffi-dev python3-dev
+
+curl https://bootstrap.pypa.io/pip/3.7/get-pip.py -o get-pip.py
+
+python3 get-pip.py
+
+
+cara run biar bisa close tanpa run
+nohup python3 app.py >/dev/null 2>&1 &
+
+matiinnya:
+- ps aux | grep python3
+- cari yang python3 app.py
+- kill pid depannya: kill 21658
+
+
+
+INSTALL NODEJS:
+curl -fsSL https://deb.nodesource.com/setup_22.x | bash -
+apt install nodejs -y
+
+
+INSTALL BOT WA:
+
+
+sudo apt update
+sudo apt install -y libnss3 libxkbcommon0 libxss1 libasound2 libatk1.0-0 libatk-bridge2.0-0 libcups2 libgbm1 libgtk-3-0 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libxtst6 libpango-1.0-0 libcairo2
