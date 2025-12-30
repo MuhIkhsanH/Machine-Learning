@@ -54,3 +54,9 @@ curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux  
 chmod +x /usr/local/bin/yt-dlp
 test ytdlp:
 /usr/local/bin/yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+/usr/local/bin/yt-dlp \
+-f "bv*[vcodec!=av1]+ba[acodec!=opus]/bv*+ba" \
+--merge-output-format mp4 \
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
