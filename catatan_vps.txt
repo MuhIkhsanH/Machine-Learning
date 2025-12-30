@@ -1,3 +1,5 @@
+INSTALL PIP3 PYTHON DI VPS DEBIAN 10 
+
 cp /etc/apt/sources.list /etc/apt/sources.list.bak-$(date +%s)
 
 
