@@ -52,5 +52,5 @@ sudo apt install -y libnss3 libxkbcommon0 libxss1 libasound2 libatk1.0-0 libatk-
 install yt-dlp on debian 10 (BRUH FINNALY I CAN DOWNLOAD YTDLP ON DEBIAN 10)
 curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux   -o /usr/local/bin/yt-dlp
 chmod +x /usr/local/bin/yt-dlp
-
-
+test ytdlp:
+/usr/local/bin/yt-dlp https://www.youtube.com/watch?v=dQw4w9WgXcQ
