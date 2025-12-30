@@ -46,3 +46,9 @@ INSTALL BOT WA:
 
 sudo apt update
 sudo apt install -y libnss3 libxkbcommon0 libxss1 libasound2 libatk1.0-0 libatk-bridge2.0-0 libcups2 libgbm1 libgtk-3-0 libx11-xcb1 libxcomposite1 libxdamage1 libxrandr2 libxtst6 libpango-1.0-0 libcairo2
+
+
+
+install yt-dlp
+curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp_linux   -o /usr/local/bin/yt-dlp
+chmod +x /usr/local/bin/yt-dlp
