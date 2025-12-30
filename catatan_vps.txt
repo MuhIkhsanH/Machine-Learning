@@ -62,3 +62,6 @@ test ytdlp:
 --merge-output-format mp4 \
 https://www.youtube.com/watch?v=dQw4w9WgXcQ
 
+
+percobaan 1:
+/usr/local/bin/yt-dlp -f "bv*[height<=480]/ba" -o "/tmp/raw.%(ext)s" "https://youtu.be/eYAd4uDotF0?si=LnSIIeWaPKXG2eg1" && ffmpeg -y -i /tmp/raw.* -vf "scale=w=trunc(iw/2)*2:h=trunc(ih/2)*2" -c:v libx264 -profile:v baseline -pix_fmt yuv420p -crf 28 -preset veryfast -c:a aac -b:a 96k -movflags +faststart /tmp/final.mp4 && rm /tmp/raw.*
