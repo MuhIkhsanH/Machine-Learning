@@ -31,7 +31,10 @@ plt.xlabel('Gender')
 plt.ylabel("Jumlah")
 plt.show()
 ```
-
+## hist untuk lebih dari 2, bukan biner semisal 3-5
+```
+pakai bins = [-0.5, 0.5, 1.5, 2.5]
+```
 ## hist tapi ada angka diatasnya
 ```
 import matplotlib.pyplot as plt
