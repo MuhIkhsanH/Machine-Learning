@@ -31,9 +31,18 @@ plt.xlabel('Gender')
 plt.ylabel("Jumlah")
 plt.show()
 ```
-## hist untuk lebih dari 2, semisal 3
+## hist fleksibel, bisa biner bisa lebih dari 2
 ```
-pakai bins = [-0.5, 0.5, 1.5, 2.5]
+import matplotlib.pyplot as plt
+import numpy as np
+
+n_class = 3
+bins = np.arange(-0.5,n_class + 0.5, 1)
+
+plt.hist(df['Payment'],bins=bins,rwidth=0.8, edgecolor='black', color='skyblue')
+plt.title("Payment")
+plt.xlabel("Payment")
+plt.ylabel("Total")
 ```
 ## hist tapi ada angka diatasnya
 ```
