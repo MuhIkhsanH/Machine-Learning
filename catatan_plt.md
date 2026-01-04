@@ -100,7 +100,7 @@ plt.show()
 
 
 
-# grafik bar
+# Grafik Bar
 
 ```
 df = pd.DataFrame({
