@@ -114,3 +114,17 @@ plt.xlabel("Nama")
 plt.ylabel("Age")
 plt.show()
 ```
+
+# Grafih barh (bar horizontal
+```
+import matplotlib.pyplot as plt
+
+counts = df['Product line'].value_counts()
+
+plt.barh(counts.index, counts.values)
+plt.title("Jenis Produk")
+plt.xlabel("Total")
+plt.ylabel("Produk")
+plt.show()
+
+```
