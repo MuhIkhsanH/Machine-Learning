@@ -97,3 +97,20 @@ plt.title("Confusion Matrix")
 plt.show()
 
 ```
+
+
+
+# grafik bar
+
+```
+df = pd.DataFrame({
+    "Nama": ["Name 1","Name 2","Name 3","Name 4"],
+    "Age": [30,20,12,25]
+})
+
+plt.bar(df['Nama'],df['Age'])
+plt.title("Age Per Orang")
+plt.xlabel("Nama")
+plt.ylabel("Age")
+plt.show()
+```
