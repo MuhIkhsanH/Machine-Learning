@@ -31,7 +31,7 @@ plt.xlabel('Gender')
 plt.ylabel("Jumlah")
 plt.show()
 ```
-## hist untuk lebih dari 2, bukan biner semisal 3-5
+## hist untuk lebih dari 2, semisal 3
 ```
 pakai bins = [-0.5, 0.5, 1.5, 2.5]
 ```
