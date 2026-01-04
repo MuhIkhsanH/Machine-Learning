@@ -22,6 +22,7 @@ df.drop_duplicates() = hapus diplicated
 Y = df['diagnosis']
 X = df.drop(['id', 'diagnosis', 'Unnamed: 32'], axis=1) = drop target biasanya target kolom
 df.iloc[0] = menampilkan 1 data saja index berapa
+df['Gender'].value_counts() = membaca jumlah isi kolom dan sekaligus unique nya
 ```
 
 ## Catatan df.describe()
