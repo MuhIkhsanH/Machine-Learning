@@ -129,7 +129,7 @@ plt.ylabel("Produk")
 plt.show()
 ```
 
-# Grafik bar (objek dan float)
+# Grafik bar (objek dan float) (yang bukan float juga bisa jir)
 ```
 import matplotlib.pyplot as plt
 import numpy as np
