@@ -127,5 +127,17 @@ plt.title("Jenis Produk")
 plt.xlabel("Total")
 plt.ylabel("Produk")
 plt.show()
+```
 
+# Grafik bar (objek dan float)
+```
+import matplotlib.pyplot as plt
+import numpy as np
+
+total = df.groupby("Product line")["Unit price"].mean()
+plt.figure(figsize=(10,5))
+plt.bar(total.index,total.values)
+plt.xticks(rotation=90)
+plt.ylabel("Total Hrga")
+plt.show()
 ```
