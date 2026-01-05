@@ -7,6 +7,7 @@ plt.title("Distribusi Age")
 plt.xlabel('Age')
 plt.ylabel("jumlah")
 plt.show()
+plt.figure(figsize=(10,5)) = UKURAN CANVAS NYA ATAU GRAFIKNYA
 ```
 
 ## plt.hist(df['age'],bins=10,color='skyblue',edgecolor='black')
